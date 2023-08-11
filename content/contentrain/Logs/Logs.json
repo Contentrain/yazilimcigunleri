@@ -1,0 +1,215 @@
+[
+  {
+    "content": "\n[![Rain Of Change](https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/161e2520-980c-4c92-c953-a7080a77a800/public)](https://change-log-red.vercel.app/)\n\n# Rain of Change  [![Netlify Status](https://api.netlify.com/api/v1/badges/86ca144b-95be-4813-ae57-5d1ef8f23856/deploy-status)](https://app.netlify.com/sites/delicate-empanada-f78c32/deploys)\n\n\nA free Changelog template created with [**Nuxt 3.0**](https://nuxtjs.org) & [**Nuxt Content 2.0**](https://content.nuxtjs.org) that you can use for your projects.\n\nWe are very pleased to share our first free template. We hope Rain of Change will help anyone who needs to keep a Changelog for their projects.\n\nYou can customize this template as you wish by copying it to your own repository and pulling it to your local.\n\n[Live Preview](https://delicate-empanada-f78c32.netlify.app/)\n\n## Headless CMS\n[![Use with Contentrain](https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/721c176e-f4b1-4495-1d6c-87a4b9ffa100/public)](https://app.contentrain.io)\n\n\nTo manage the content of this template, we recommend you use [**Contentrain**](Contentrain).\n\nWe have created the collection template that you need. You can find and use this collection in “Shared Collections”.\n\nAfter free registration with [Contentrain](**Contentrain**), you need to start a manual project installation and continue the installation by selecting the Rain of Change repo on Github.\n\nDuring the installation, it is enough to delete the sample collections in the Collections step, select the Logs collection from the Shared Collections section and complete the installation.\n\nThis way you can easily manage all your logs with Contentrain.\n\nIf you have any question with the installation, you can send us your questions via [Discord](**Discord**).\n\nWe will soon publish a video about how to use this template with Contentrain.\n\n\n## Frontmatter\n#### Default\n|variable|description|options|\n|-|-|-|\n|publish|It provides publication control for your logs| true or false|\n|relaseDate|Allows you to set dates for your logs| -|\n|tags|Allows you to set the version label and label colors. | -|\n\n#### Tag Object\n|variable|description|options|\n|-|-|-|\n|text| You can create release tags like \"Features, Bug Fix\"| -|\n|color| You can choose the color for the tags | blue,red, yellow, gray, zinc, green, purple, orange, pink, teal, indigo, cyan, brown, slate, amber, lime, emerald, sky |\n\n## Setup\n\nMake sure to install the dependencies:\n\n```bash\n# yarn\nyarn install\n\n# npm\nnpm install\n```\n\n## Development Server\n\nStart the development server on http://localhost:3000\n\n```bash\nnpm run dev\n```\n\n## Deployment\n\n[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Contentrain/rain-of-change) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Contentrain/rain-of-change)\n\n\n### Static Hosting\n\nPre-render the website to be deployed on any static hosting:\n\n```bash\nnpm run generate\n```\n\nThe `dist/` directory is ready to be deployed (symlink to `.output/public`), [learn more on Nuxt docs](https://v3.nuxtjs.org/guide/deploy/static-hosting).\n\n### Node server\n\nBuild the application for production:\n\n```bash\nnpm run build\n```\n\nStart the server in production:\n\n```bash\nnode .output/server/index.mjs\n```\n\nLearn more on [Nuxt docs](https://v3.nuxtjs.org/guide/deploy/node-server) for more information.\n",
+    "ID": "39e99355-bba0-4518-96de-59a968e2707c",
+    "slug": "readme",
+    "relaseDate": "2022-04-26 12:00",
+    "publish": true,
+    "createdAt": 1654690525019,
+    "tags": [
+      {
+        "ID": "508dc3fa-59e8-4e29-8163-78e3916c151e",
+        "text": "readme",
+        "color": "orange",
+        "createdAt": 1654690608465,
+        "updatedAt": 1654771321415
+      }
+    ],
+    "updatedAt": 1654874784626
+  },
+  {
+    "ID": "539a0c00-a007-4bb7-8107-5221c72c96fd",
+    "content": "Bug Fix\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n\nImprovement\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n",
+    "slug": "1-0-0",
+    "relaseDate": "2022-05-01 12:00",
+    "publish": true,
+    "tags": [
+      {
+        "ID": "3309ea92-433a-4b53-90c7-d1de10bc9e80",
+        "text": "bug-fix",
+        "color": "red",
+        "createdAt": 1654770893582
+      },
+      {
+        "ID": "4385a7f7-e944-45ca-897c-d16448ec33d3",
+        "text": "improvement",
+        "color": "blue",
+        "createdAt": 1654770911777
+      }
+    ],
+    "createdAt": 1654769347790
+  },
+  {
+    "ID": "9171d239-b1d7-4500-8911-436f21a49a96",
+    "content": "Features\n-----\n\n\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.",
+    "slug": "1-0-1",
+    "relaseDate": "2022-05-05 12:00",
+    "publish": true,
+    "tags": [
+      {
+        "ID": "20446b10-6cd4-42d9-b43a-436a135ad884",
+        "text": "feature",
+        "color": "green",
+        "createdAt": 1654770943864
+      }
+    ],
+    "createdAt": 1654769384666,
+    "updatedAt": 1654770956926
+  },
+  {
+    "ID": "dd91635b-1d62-4518-b8d8-e5eb8de6e01a",
+    "content": "Features\n-----\n\n\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n\nBug Fix\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.\n",
+    "slug": "1-1-0",
+    "relaseDate": "2022-05-10 12:00",
+    "publish": true,
+    "tags": [
+      {
+        "ID": "a2f19ba0-17b5-4cc5-ac37-ab3620fe0147",
+        "text": "feature",
+        "color": "green",
+        "createdAt": 1654770981798
+      },
+      {
+        "ID": "22462977-8736-45b0-a295-3b19f6da7b01",
+        "text": "bug-fix",
+        "color": "red",
+        "createdAt": 1654770990945
+      }
+    ],
+    "createdAt": 1654769435004,
+    "updatedAt": 1654769645805
+  },
+  {
+    "ID": "271c02da-de90-4661-9841-c21d79302bf2",
+    "content": "Bug Fixes\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.",
+    "slug": "1-1-1",
+    "relaseDate": "2022-05-16 12:00",
+    "publish": true,
+    "tags": [
+      {
+        "ID": "fa3633d0-3a5c-4099-a40c-e3e9fd73a954",
+        "text": "bug-fix",
+        "color": "red",
+        "createdAt": 1654771033216
+      }
+    ],
+    "createdAt": 1654769481039,
+    "updatedAt": 1654771017975
+  },
+  {
+    "ID": "a338eaf2-287e-4054-9b0a-6e06e9957888",
+    "content": "Improvements\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.",
+    "slug": "1-2-6",
+    "relaseDate": "2022-06-15 12:00",
+    "publish": true,
+    "tags": [
+      {
+        "ID": "23c66f83-7d28-4f59-9b54-1ea62b3d3fca",
+        "text": "improvement",
+        "color": "green",
+        "createdAt": 1654771064078
+      }
+    ],
+    "createdAt": 1654769511051
+  },
+  {
+    "ID": "416f4dcc-2ed6-45dc-bcb8-95ad3f170b3e",
+    "content": "Improvements\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.\n\nBug Fixes\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.",
+    "slug": "1-3-2",
+    "relaseDate": "2022-05-21 12:00",
+    "publish": true,
+    "tags": [
+      {
+        "ID": "5159df3c-e4b1-469b-b5ec-f8b618a73380",
+        "text": "improvement",
+        "color": "blue",
+        "createdAt": 1654771089079
+      },
+      {
+        "ID": "4e6e9877-a11d-410f-bdb2-62e5d34fb8b7",
+        "text": "bug-fix",
+        "color": "red",
+        "createdAt": 1654771243709
+      }
+    ],
+    "createdAt": 1654769555096
+  },
+  {
+    "ID": "acd69edb-1656-4c58-943e-98e890f7d50e",
+    "content": "Features\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.",
+    "slug": "2-0-0",
+    "relaseDate": "2022-06-26 12:00",
+    "publish": true,
+    "tags": [
+      {
+        "ID": "8399aefa-1376-4a32-a28a-f349d5240884",
+        "text": "feature",
+        "color": "green",
+        "createdAt": 1654771521117
+      }
+    ],
+    "createdAt": 1654769596635,
+    "updatedAt": 1654769676214
+  },
+  {
+    "ID": "da075c00-2859-42c8-b791-75fde61e5650",
+    "content": "Bug Fixes\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.",
+    "slug": "2-1-1",
+    "relaseDate": "2022-06-30 12:00",
+    "publish": true,
+    "tags": [
+      {
+        "ID": "ba027582-5d6c-4790-afdb-93a9f1fa3ae2",
+        "text": "bug-fix",
+        "color": "red",
+        "createdAt": 1654771548684
+      }
+    ],
+    "createdAt": 1654769625839
+  },
+  {
+    "ID": "a2552546-469a-41a9-a6f2-d984683982ad",
+    "content": "\n\nFeatures\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n\n\nImprovements\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.\n\nBug Fixes\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.",
+    "slug": "3-0-0",
+    "relaseDate": "2022-06-02 12:00",
+    "publish": true,
+    "tags": [
+      {
+        "ID": "c5609578-9d0f-46f3-af15-efd7d5ecc834",
+        "text": "feature",
+        "color": "green",
+        "createdAt": 1654771599508,
+        "updatedAt": 1654771651947
+      },
+      {
+        "ID": "c9fc5c83-d0ba-41cf-a13e-ed0526940462",
+        "text": "improvement",
+        "color": "blue",
+        "createdAt": 1654771612735
+      },
+      {
+        "ID": "943d918d-2329-4df0-9462-244270181d81",
+        "text": "bug-fix",
+        "color": "red",
+        "createdAt": 1654771626925
+      }
+    ],
+    "createdAt": 1654770785840
+  },
+  {
+    "ID": "69b202b2-7fc0-472e-914c-54bdff53bed3",
+    "content": "Bug Fixes ( Wait )\n-----\n\n*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n*   Aliquam tincidunt mauris eu risus.\n*   Vestibulum auctor dapibus neque.\n*   Nunc dignissim risus id metus.\n*   Cras ornare tristique elit.\n*   Vivamus vestibulum ntulla nec ante.\n*   Praesent placerat risus quis eros.\n*   Fusce pellentesque suscipit nibh.\n*   Integer vitae libero ac risus egestas placerat.\n*   Vestibulum commodo felis quis tortor.\n*   Ut aliquam sollicitudin leo.\n*   Cras iaculis ultricies nulla.\n*   Donec quis dui at dolor tempor interdum.",
+    "slug": "2-0-43",
+    "relaseDate": "2022-06-08 12:00",
+    "publish": false,
+    "tags": [
+      {
+        "ID": "c536c0c1-50dc-46c9-922c-022bbb848d59",
+        "text": "bug-fix",
+        "color": "red",
+        "createdAt": 1654771672316
+      }
+    ],
+    "createdAt": 1654770826263
+  }
+]
