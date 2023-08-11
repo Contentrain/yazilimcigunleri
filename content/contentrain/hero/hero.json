@@ -18,7 +18,12 @@
       {
         "ID": "30bb988a-dfc2-42ad-9426-eafc162a3ac0",
         "label": "12,13 AGUSTOS 2023",
-        "icon": [],
+        "icon": {
+          "ID": "5318f07d-bcb5-4fd5-a2c7-1dfa7461d5f7",
+          "src": "https://yazilimcigunleri.com/wp-content/uploads/2019/11/calendar.svg",
+          "alt": "calendar",
+          "createdAt": 1691762703209
+        },
         "createdAt": 1691762672617
       }
     ],
