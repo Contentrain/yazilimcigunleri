@@ -7,14 +7,14 @@
         srcset="https://yazilimcigunleri.com/wp-content/uploads/2019/10/logo.png 3x"
         class="mx-auto mb-8"
       >
-      <h4 class="mb-2 text-2">
+      <h4 class="mb-2 text-2 line-clamp-1 max-w-xs mx-auto">
         {{ heroData.subtitle }}
       </h4>
-      <h4 class="text-6xl font-semibold">
+      <h4 class="text-6xl font-semibold line-clamp-2">
         {{ heroData.title }}
       </h4>
-      <div class="flex items-center space-x-4 mx-auto w-max mt-8">
-        <div v-for="item in heroData.list" :key="item.ID" class="flex items-center space-x-3">
+      <div class="flex items-center gap-4 mx-auto justify-center mt-8 flex-wrap">
+        <div v-for="item in heroData.list.slice(0,3) " :key="item.ID" class="flex items-center space-x-3">
           <img
             decoding="async"
             :src="item.icon.src"
@@ -25,7 +25,7 @@
           <span>{{ item.label }}</span>
         </div>
       </div>
-      <a :href="heroData.link.url" class="px-10 py-2 bg-purple-500 hover:bg-purple-400 inline-block text-white rounded-sm text-xl mt-8">
+      <a :href="heroData.link.url" class="px-10 py-2 bg-purple-500 hover:bg-purple-400 inline-block truncate max-w-xs text-white rounded-sm text-xl mt-8">
         {{ heroData.link.label }}
       </a>
     </div>
@@ -77,3 +77,17 @@ const logs = computed(() => {
   }
 })
 </script>
+<style>
+.line-clamp-1{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.line-clamp-2{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+</style>
