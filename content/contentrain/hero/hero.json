@@ -7,7 +7,12 @@
       {
         "ID": "40438f5f-12d3-4147-a20e-da32195f0a4d",
         "label": "IPA KAMPUS, FLORYA",
-        "icon": [],
+        "icon": {
+          "ID": "4e64346c-5580-4925-8e32-ef2502412192",
+          "src": "https://yazilimcigunleri.com/wp-content/uploads/2019/11/earth-globe.svg",
+          "alt": "earth-globe",
+          "createdAt": 1691762644324
+        },
         "createdAt": 1691762600200
       }
     ],
