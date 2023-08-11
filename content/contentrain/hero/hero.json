@@ -1,7 +1,7 @@
 [
   {
     "ID": "5f1931a3-6b71-432f-b72b-b5eb630765ac",
-    "subtitle": "TÜKENMEDEN YERINI test",
+    "subtitle": "TÜKENMEDEN YERINI AL",
     "title": "YAZILIMCI GUNLERI ETKINLIGI",
     "list": [
       {
@@ -34,6 +34,6 @@
       "createdAt": 1691762735666
     },
     "createdAt": 1691762582257,
-    "updatedAt": 1691763812129
+    "updatedAt": 1691763875156
   }
 ]
