@@ -3,7 +3,14 @@
     "ID": "5f1931a3-6b71-432f-b72b-b5eb630765ac",
     "subtitle": "TÜKENMEDEN YERINI AL",
     "title": "YAZILIMCI GUNLERI ETKINLIGI",
-    "list": [],
+    "list": [
+      {
+        "ID": "40438f5f-12d3-4147-a20e-da32195f0a4d",
+        "label": "IPA KAMPUS, FLORYA",
+        "icon": [],
+        "createdAt": 1691762600200
+      }
+    ],
     "link": [],
     "createdAt": 1691762582257
   }
