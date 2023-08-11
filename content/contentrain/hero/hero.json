@@ -27,7 +27,12 @@
         "createdAt": 1691762672617
       }
     ],
-    "link": [],
+    "link": {
+      "ID": "4247e190-28c8-4388-96aa-4447683d62be",
+      "label": "Kayit ol",
+      "url": "https://yazilimcigunleri.com/",
+      "createdAt": 1691762735666
+    },
     "createdAt": 1691762582257
   }
 ]
