@@ -8,7 +8,7 @@
         rel="noopener noreferrer"
       >
         <div class="logo-icon">
-          <img class="w-[157px] h-[48px]" src="logo.svg" alt="contentrain logo">
+          <img class="w-[157px] h-[48px]" src="/logo.svg" alt="contentrain logo">
         </div>
       </a>
       <div class="social-icons text-gray-400 flex items-center text-xl">
