@@ -1,7 +1,7 @@
 [
   {
     "ID": "5f1931a3-6b71-432f-b72b-b5eb630765ac",
-    "subtitle": "TÜKENMEDEN YERINI AL",
+    "subtitle": "TÜKENMEDEN YERINI test",
     "title": "YAZILIMCI GUNLERI ETKINLIGI",
     "list": [
       {
@@ -33,6 +33,7 @@
       "url": "https://yazilimcigunleri.com/",
       "createdAt": 1691762735666
     },
-    "createdAt": 1691762582257
+    "createdAt": 1691762582257,
+    "updatedAt": 1691763812129
   }
 ]
