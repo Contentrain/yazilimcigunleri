@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="flex justify-center">
-        <a :href="heroData.link.url" class="px-10 py-2 inline-block mx-auto bg-purple-500 hover:bg-purple-400 truncate max-w-xs text-white rounded-sm text-lg mt-12">
+        <a :href="heroData.link.url" target="_blank" class="px-10 py-2 inline-block mx-auto bg-purple-500 hover:bg-purple-400 truncate max-w-xs text-white rounded-sm text-lg mt-12">
           {{ heroData.link.label }}
         </a>
       </div>
