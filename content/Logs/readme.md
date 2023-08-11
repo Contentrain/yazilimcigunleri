@@ -10,7 +10,7 @@ tags:
     color: "orange"
     createdAt: 1654690608465
     updatedAt: 1654771321415
-updatedAt: 1654874784626
+updatedAt: 1691761836776
 
 ---
 
@@ -22,8 +22,6 @@ updatedAt: 1654874784626
 A free Changelog template created with [**Nuxt 3.0**](https://nuxtjs.org) & [**Nuxt Content 2.0**](https://content.nuxtjs.org) that you can use for your projects.
 
 We are very pleased to share our first free template. We hope Rain of Change will help anyone who needs to keep a Changelog for their projects.
-
-You can customize this template as you wish by copying it to your own repository and pulling it to your local.
 
 [Live Preview](https://delicate-empanada-f78c32.netlify.app/)
 
