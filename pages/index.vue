@@ -8,39 +8,25 @@
         class="mx-auto mb-8"
       >
       <h4 class="mb-2 text-2">
-        TÜKENMEDEN YERINI AL
+        {{ heroData.subtitle }}
       </h4>
       <h4 class="text-6xl font-semibold">
-        YAZILIMCI GUNLERI ETKINLIGI
+        {{ heroData.title }}
       </h4>
       <div class="flex items-center space-x-4 mx-auto w-max mt-8">
-        <div class="flex items-center space-x-3">
+        <div v-for="item in heroData.list" :key="item.ID" class="flex items-center space-x-3">
           <img
             decoding="async"
-            src="https://yazilimcigunleri.com/wp-content/uploads/2019/11/earth-globe.svg"
-            alt="earth-globe"
+            :src="item.icon.src"
+            :alt="item.icon.alt"
             width="23"
             height="23"
-            data-no-retina=""
-            data-src-rs-ref="https://yazilimcigunleri.com/wp-content/uploads/2019/11/earth-globe.svg"
           >
-          <span>IPA KAMPUS, FLORYA</span>
-        </div>
-        <div class="flex items-center space-x-3">
-          <img
-            decoding="async"
-            src="https://yazilimcigunleri.com/wp-content/uploads/2019/11/calendar.svg"
-            alt="earth-globe"
-            width="23"
-            height="23"
-            data-no-retina=""
-            data-src-rs-ref="https://yazilimcigunleri.com/wp-content/uploads/2019/11/earth-globe.svg"
-          >
-          <span>12,13 AGUSTOS 2023</span>
+          <span>{{ item.label }}</span>
         </div>
       </div>
-      <a href="/test" class="px-10 py-2 bg-purple-500 hover:bg-purple-400 inline-block text-white rounded-sm text-xl mt-8">
-        Kayit ol
+      <a :href="heroData.link.url" class="px-10 py-2 bg-purple-500 hover:bg-purple-400 inline-block text-white rounded-sm text-xl mt-8">
+        {{ heroData.link.label }}
       </a>
     </div>
     <div v-if="logs && logs.length > 0" class="logs divide-y divide-gray-100">
@@ -63,6 +49,10 @@
 </template>
 
 <script setup lang="ts">
+import hero from '../content/contentrain/hero/hero.json'
+
+const heroData = hero[0]
+
 const limit = ref(5)
 const { data } = useAsyncData(
   'logs',
