@@ -4,9 +4,8 @@
       <div class="max-w-2xl px-4 m-auto">
         <div class="">
           <img
-            src="https://yazilimcigunleri.com/wp-content/uploads/2019/10/logo.png"
-            alt="12 - 13 Ağustos Yazılımcı Günleri"
-            srcset="https://yazilimcigunleri.com/wp-content/uploads/2019/10/logo.png 5x"
+            :src="heroData.logo.src"
+            :alt="heroData.logo.alt"
             class="mx-auto mb-8 w-24 h-auto"
           >
         </div>
