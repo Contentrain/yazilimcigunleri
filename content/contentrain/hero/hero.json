@@ -34,6 +34,12 @@
       "createdAt": 1691762735666
     },
     "createdAt": 1691762582257,
-    "updatedAt": 1691763875156
+    "updatedAt": 1691763875156,
+    "logo": {
+      "ID": "0edeaff2-f41a-435a-9ef9-b81f67da451e",
+      "src": "https://yazilimcigunleri.com/wp-content/uploads/2019/10/logo.png",
+      "alt": "12 - 13 Ağustos Yazılımcı Günleri",
+      "createdAt": 1691821089835
+    }
   }
 ]
