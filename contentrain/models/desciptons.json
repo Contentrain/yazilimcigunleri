@@ -60,7 +60,7 @@
     "modelId": "desciptons"
   },
   {
-    "name": "yazilar",
+    "name": "title",
     "fieldId": "yazilar",
     "modelId": "desciptons",
     "componentId": "single-line-text",
