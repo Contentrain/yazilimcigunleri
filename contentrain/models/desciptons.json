@@ -58,5 +58,14 @@
     "system": true,
     "defaultField": false,
     "modelId": "desciptons"
+  },
+  {
+    "name": "yazilar",
+    "fieldId": "yazilar",
+    "modelId": "desciptons",
+    "componentId": "single-line-text",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]
